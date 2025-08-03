@@ -4,8 +4,7 @@ import {Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
-import {ReactNode, useState} from "react";
+import {ReactNode} from "react";
 import {TanStackProvider} from "@/components/TanStackProvider/TanStackProvider";
 
 const geistSans = Geist({
