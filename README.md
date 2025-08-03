@@ -72,10 +72,3 @@ npm run lint   # ESLint
 - `GET /notes/:id` - Get note details
 - `DELETE /notes/:id` - Delete note
 
-## Deployment
-
-Deploy to Vercel by connecting your GitHub repository and adding environment variables.
-
-## License
-
-MIT License
