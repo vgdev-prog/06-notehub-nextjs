@@ -1,6 +1,5 @@
 export const API_URL = 'https://notehub-public.goit.study/api';
 
-// Форматы дат
 export const DATE_FORMATS = {
   FULL: {
     year: 'numeric' as const,

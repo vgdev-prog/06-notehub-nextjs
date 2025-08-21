@@ -21,9 +21,12 @@ const Modal = ({children, onCloseModal}:ModalProps) => {
             }
         };
 
+        document.body.style.overflow = 'hidden';
+
         document.addEventListener('keydown', handleEscape);
         return () => {
             document.removeEventListener('keydown', handleEscape);
+            document.body.style.overflow = '';
         };
     }, [onCloseModal]);
     return createPortal(
